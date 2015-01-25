@@ -19,5 +19,7 @@ public class main {
         while (res.next()) {
             System.out.println("colonne 1 = " + res.getString(1));
         }
+
+        Utils.closeConnection();
     }
 }
