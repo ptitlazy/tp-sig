@@ -19,24 +19,19 @@ public class main {
     public static void main(String[] args) throws SQLException {
         Connection connection = Utils.getConnection();
 
-        //PreparedStatement stmt =  connection.prepareStatement();
-        //ResultSet res = stmt.executeQuery();
+        MapPanel map = new MapPanel(917345, 6458708, 1000);
 
-        MapPanel map = new MapPanel(5.7682866458, 45.193390625, 0.01);
-
+        //Requête pour trouver tous les bâtiments autour de Grenoble
         Statement stmt = connection.createStatement();
-//        ResultSet res = stmt.executeQuery("select id, st_transform(linestring,2154) "
-        ResultSet res = stmt.executeQuery("select id, linestring "
+        ResultSet res = stmt.executeQuery("select id, st_transform(linestring,2154), st_transform(st_centroid(linestring),2154) "
                 +"from ways where tags?'building' and tags->'name' like 'Ensimag%' "
                 +"and st_xmin(linestring) >= 5.7 and st_xmax(linestring) <= 5.8 "
                 +"and st_ymin(linestring) >= 45.1 and st_ymax(linestring) <= 45.2"
         );
 
-//        GeoMainFrame frame = new GeoMainFrame("SIG", map);
+        System.out.println("request done");
 
-        List<Polygon> polygons = new ArrayList<>();
-
-        System.out.println("requete done");
+        //Construction de la carte
         while (res.next()) {
             Geometry geom = ((PGgeometry) res.getObject(2)).getGeometry();
 
@@ -44,31 +39,18 @@ public class main {
 
             Polygon p = new Polygon();
             for (int i = 0 ; i<numPoints ; i++) {
-                System.out.println("X:"+geom.getPoint(i).getX()+" ; Y:"+geom.getPoint(i).getY());
+                System.out.println("new point -- X:"+geom.getPoint(i).getX()+" ; Y:"+geom.getPoint(i).getY());
                 p.addPoint(new geoexplorer.gui.Point(geom.getPoint(i).getX(), geom.getPoint(i).getY()));
             }
 
-            p.addPoint(new geoexplorer.gui.Point(20,10));
-//            p.addPoint(new geoexplorer.gui.Point(45, -10));
-
             map.addPrimitive(p);
 
-            System.out.println("id : " + res.getInt(1) + " Construit");
-//            frame.repaint();
+            System.out.println("bat id : " + res.getInt(1) + " done");
         }
-
 
         GeoMainFrame frame = new GeoMainFrame("SIG", map);
 
-        /*MapPanel map = new MapPanel(5.768, 45.19, 100);
-        Polygon p = new Polygon();
-        p.addPoint(new geoexplorer.gui.Point(5.768,45.19));
-        p.addPoint(new geoexplorer.gui.Point(5.7681,45.18));
-        p.addPoint(new geoexplorer.gui.Point(20,10));
-        p.addPoint(new geoexplorer.gui.Point(45, -10));
-        map.addPrimitive(p);
-        GeoMainFrame frame = new GeoMainFrame("SIG", map);*/
-
+        //Fermeture de la connexion
         Utils.closeConnection();
     }
 }
