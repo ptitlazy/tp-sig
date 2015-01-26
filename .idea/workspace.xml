@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea173c85-b56e-4cc1-9d84-074065418c58" name="Default" comment="" />
+    <list default="true" id="ea173c85-b56e-4cc1-9d84-074065418c58" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fr/ensimag/scip/main.class" afterPath="$PROJECT_DIR$/target/classes/fr/ensimag/scip/main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/ensimag/scip/main.java" afterPath="$PROJECT_DIR$/src/main/java/fr/ensimag/scip/main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="tp-sig.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,7 +45,7 @@
       <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/database/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="935">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding />
             </state>
@@ -50,16 +55,96 @@
       <file leaf-file-name="main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/ensimag/scip/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03815937" vertical-offset="0" max-vertical-offset="891">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.48445597" vertical-offset="340" max-vertical-offset="884">
+              <caret line="31" column="30" selection-start-line="24" selection-start-column="10" selection-end-line="31" selection-end-column="30" />
               <folding>
-                <marker date="1422198411627" expanded="true" signature="419:445" placeholder="select count..users..." />
+                <element signature="imports" expanded="true" />
+                <marker date="1422283536168" expanded="true" signature="1102:1123" placeholder="select tags-..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1123" placeholder="select tags-..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1133" placeholder="select tags-..nodes..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..ways..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1161" placeholder="select tags-..ways..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1161" placeholder="select tags-..ways..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1192" placeholder="select tags-..nodes..." />
+                <marker date="1422283536168" expanded="true" signature="1102:1193" placeholder="select tags-..ways..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GraphicalPrimitive.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/GraphicalPrimitive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="510">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Polygon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/Polygon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+              <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LineString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/LineString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="1275">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/MapPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="12.724138" vertical-offset="2528" max-vertical-offset="3196">
+              <caret line="142" column="18" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
+              <folding>
+                <element signature="e#3932#3933#0" expanded="true" />
+                <element signature="e#3970#3971#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoordinateConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/CoordinateConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="1428">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeoMainFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/GeoMainFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="765">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -82,10 +167,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -110,6 +197,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,10 +274,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp-sig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp-sig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,12 +318,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/DAC/backend" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -226,17 +340,23 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="fr.ensimag.scip.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="tp-sig" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -435,6 +555,11 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -446,20 +571,22 @@
       <updated>1421308953971</updated>
       <workItem from="1421308963952" duration="3449000" />
       <workItem from="1421415081827" duration="147000" />
-      <workItem from="1422198078991" duration="333000" />
+      <workItem from="1422198078991" duration="896000" />
+      <workItem from="1422277127089" duration="5719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3929000" />
+    <option name="totallyTimeSpent" value="10211000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -467,23 +594,22 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24894068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -521,18 +647,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/database/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="935">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="935">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/ensimag/scip/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1422198411627" expanded="true" signature="419:445" placeholder="select count..users..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1422283536168" expanded="true" signature="1102:1123" placeholder="select tags-..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1123" placeholder="select tags-..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1133" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1161" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1161" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1192" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1193" placeholder="select tags-..ways..." />
           </folding>
         </state>
       </provider>
@@ -558,15 +698,22 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1422198411627" expanded="true" signature="419:445" placeholder="select count..users..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1422283536168" expanded="true" signature="1102:1123" placeholder="select tags-..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1123" placeholder="select tags-..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1133" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1161" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1161" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1192" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1193" placeholder="select tags-..ways..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/MapPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3316062" vertical-offset="569" max-vertical-offset="3162">
-          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -578,10 +725,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/GeoMainFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="20" max-vertical-offset="765">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="935">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/ensimag/scip/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1422283536168" expanded="true" signature="1102:1123" placeholder="select tags-..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1123" placeholder="select tags-..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1133" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1161" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1161" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1192" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1193" placeholder="select tags-..ways..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="799">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -593,12 +773,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/LineString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="1275">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/Polygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/MapPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="12.724138" vertical-offset="2528" max-vertical-offset="3196">
+          <caret line="142" column="18" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
+          <folding>
+            <element signature="e#3932#3933#0" expanded="true" />
+            <element signature="e#3970#3971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/CoordinateConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="1428">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/GraphicalPrimitive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="510">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geoexplorer/gui/GeoMainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="765">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/ensimag/scip/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03815937" vertical-offset="0" max-vertical-offset="891">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.48445597" vertical-offset="340" max-vertical-offset="884">
+          <caret line="31" column="30" selection-start-line="24" selection-start-column="10" selection-end-line="31" selection-end-column="30" />
           <folding>
-            <marker date="1422198411627" expanded="true" signature="419:445" placeholder="select count..users..." />
+            <element signature="imports" expanded="true" />
+            <marker date="1422283536168" expanded="true" signature="1102:1123" placeholder="select tags-..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1123" placeholder="select tags-..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1133" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1150" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1161" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1161" placeholder="select tags-..ways..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1192" placeholder="select tags-..nodes..." />
+            <marker date="1422283536168" expanded="true" signature="1102:1193" placeholder="select tags-..ways..." />
           </folding>
         </state>
       </provider>
